@@ -15,8 +15,10 @@ import mortgage from '../images/services/mortgage.svg';
 import survey from '../images/services/survey.svg';
 import soilTest from '../images/services/soil-test.svg';
 
+import landDevelopment from '../images/services-page/land-development.png';
 import property from '../images/services-page/property.png';
 import legalLiaisoning from '../images/services-page/legal-liaisoning.png';
+import soilTesting from '../images/services-page/soil-testing.png';
 import contracting from '../images/services-page/construction.png';
 import investment from '../images/services-page/investment.png';
 
@@ -92,7 +94,7 @@ export const reviews = [
 
 export const servicesPage = [
 	{
-		imageSource: property,
+		imageSource: landDevelopment,
 		title: "Land Development & Promotion",
 		description: "We develop premium, DTCP-approved residential and commercial layouts across Tamil Nadu’s fastest-growing zones.",
 		subtitle: "What We Deliver",
@@ -129,7 +131,7 @@ export const servicesPage = [
 		],
 	},
 	{
-		imageSource: property,
+		imageSource: soilTesting,
 		title: "Soil Testing & Digital Land Survey",
 		description: "Before any construction or layout approval, we ensure your land is structurally sound and clearly mapped using advanced tools.",
 		subtitle: "Services Offered",
