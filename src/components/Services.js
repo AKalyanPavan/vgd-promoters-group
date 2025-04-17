@@ -7,7 +7,7 @@ import { servicesPage } from './Variables.js';
 
 export default function Services() {
 	return(
-		<div className="font-['Lexend_Deca'] ">
+		<div className="font-['Lexend_Deca']">
 			<Header activeTab="services" customStyle={"bg-[#CFEAFA]"} />
 			<div className="bg-[#CFEAFA]">
 				<div className="max-w-[1300px] mx-auto sm:px-[50px] px-[20px]">

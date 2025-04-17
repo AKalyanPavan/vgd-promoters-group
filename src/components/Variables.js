@@ -92,6 +92,7 @@ export const reviews = [
 	},
 ]
 
+// Services Page
 export const servicesPage = [
 	{
 		imageSource: landDevelopment,
@@ -166,4 +167,12 @@ export const servicesPage = [
 			"Investment planning for individuals & NRIs",
 		],
 	},
+]
+
+// Contactus Page
+export const contactUsQuestions = [
+	'Have a question?',
+	'Want to book a site visit?',
+	'Need help with approvals or property investments?',
+	'We’re here to guide you every step of the way',
 ]

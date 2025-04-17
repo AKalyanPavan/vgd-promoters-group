@@ -20,7 +20,9 @@ export default function Header({activeTab, customStyle}) {
 						<span className={`cursor-pointer ${activeTab == 'services' ? underlineClass : ''}`}>Services</span>
 					</a>
 					<span className={`cursor-pointer ${activeTab == 'projects' ? underlineClass : ''}`}>Projects</span>
-					<span className={`cursor-pointer ${activeTab == 'contactus' ? underlineClass : ''}`}>Contact Us</span>
+					<a href="/contact-us">
+						<span className={`cursor-pointer ${activeTab == 'contactus' ? underlineClass : ''}`}>Contact Us</span>
+					</a>
 				</div>
 				<a href="tel:+91 8807553748">
 					<div className="bg-[#21739D] h-fit flex items-center py-[10px] px-[20px] rounded-[5px] cursor-pointer font-medium">

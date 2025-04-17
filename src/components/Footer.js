@@ -1,6 +1,6 @@
 import logoWhite from '../images/logo-white.svg';
-import mail from '../images/mail.svg';
 
+import mail from '../images/mail.svg';
 import location from '../images/location.svg';
 
 export default function Footer() {

@@ -16,3 +16,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mapImage {
+  background: linear-gradient(to right, rgba(255,255,255,0) 80%,
+              rgba(255,255,255,1)), url('images/contactus-page/map.png');
+  background-repeat: no-repeat;
+}
+
+@keyframes decreaseFontsize {
+  from {font-size: 16px; margin-bottom: 0px}
+  to {font-size: 12px; margin-bottom: 50px}
+}
+
+@keyframes increaseFontsize {
+  from {font-size: 12px; margin-bottom: 50px}
+  to {font-size: 16px; margin-bottom: 0px}
+}
