@@ -22,6 +22,12 @@ import soilTesting from '../images/services-page/soil-testing.png';
 import contracting from '../images/services-page/construction.png';
 import investment from '../images/services-page/investment.png';
 
+import centricity from '../images/aboutus-page/centricity.svg';
+import compilance from '../images/aboutus-page/compilance.svg';
+import innovation from '../images/aboutus-page/innovation.svg';
+import integrity from '../images/aboutus-page/integrity.svg';
+import sustainability from '../images/aboutus-page/sustainability.svg';
+
 export const highlights = [
 	'100+ Completed Projects',
 	'10+ Years of Real Estate & Civil Engineering Expertise',
@@ -175,4 +181,42 @@ export const contactUsQuestions = [
 	'Want to book a site visit?',
 	'Need help with approvals or property investments?',
 	'We’re here to guide you every step of the way',
+]
+
+// Aboutus Page
+export const aboutUsHighlights = [
+	{
+		imageSource: integrity,
+		title: 'Integrity',
+		description: 'Clear titles, zero hidden charges, and ethical dealings',
+	},
+	{
+		imageSource: compilance,
+		title: 'Compliance Excellence',
+		description: '100% DTCP & RERA-approved projects',
+	},
+	{
+		imageSource: centricity,
+		title: 'Customer Centricity',
+		description: ' Personalized support, from plot selection to documentation',
+	},
+	{
+		imageSource: innovation,
+		title: 'Innovation',
+		description: 'Tech-enabled processes for fast, error-free approvals',
+	},
+	{
+		imageSource: sustainability,
+		title: 'Sustainability',
+		description: 'Future-ready layouts with infrastructure built to last',
+	},
+]
+
+
+export const whyChooseVGDAboutUs = [
+	'End-to-End Real Estate Services under one roof',
+	'Expertise in land approvals, layout planning & structural consulting',
+	'Strong network with government bodies & investors',
+	'Projects in high-growth zones of Coimbatore, Tiruppur & beyond',
+	'Proven track record with top educational & industrial clients',
 ]

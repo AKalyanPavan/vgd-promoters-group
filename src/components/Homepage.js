@@ -80,7 +80,7 @@ export default function Homepage() {
 					</div>
 					<div className="flex items-center justify-center gap-[50px]">
 						<img src={whyVGD} className="w-[500px] max-xl:hidden" />
-						<div className="w-fit flex flex-col xl:gap-[50px] gap-[20px] md:max-w-[500px] text-[18px]">
+						<div className="w-fit flex flex-col xl:gap-[40px] gap-[20px] md:max-w-[500px] text-[18px]">
 							{whyChooseVGD.map((item, index) => (
 								<div className="flex items-start gap-[10px]">
 									<img src={check} />

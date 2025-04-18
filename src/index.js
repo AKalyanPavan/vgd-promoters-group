@@ -5,6 +5,7 @@ import './index.css';
 import Homepage from './components/Homepage.js';
 import Services from './components/Services.js';
 import ContactUs from './components/Contactus.js';
+import AboutUs from './components/Aboutus.js';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,9 +15,9 @@ root.render(
       <Routes>
         <Route index path='/' element={<Homepage />} />
         <Route path='/services' element={<Services />} />
-        <Route path='/contact-us' element={<ContactUs />} />
-        {/*<Route path='aboutus' element={<AboutUs />} />
-        <Route path='/privacy-policy' element={<PrivacyPolicy />} />
+        <Route path='/contactus' element={<ContactUs />} />
+        <Route path='/aboutus' element={<AboutUs />} />
+        {/*<Route path='/privacy-policy' element={<PrivacyPolicy />} />
         <Route path='/case-study' element={<CaseStudy />} />
         <Route path='/faqs' element={<Faqs />} />
         <Route path='/terms-of-service' element={<TermsofService />} />*/}
