@@ -21,7 +21,9 @@ export default function Header({activeTab, customStyle}) {
 					<a href="/services">
 						<span className={`cursor-pointer ${activeTab == 'services' ? underlineClass : ''}`}>Services</span>
 					</a>
-					<span className={`cursor-pointer ${activeTab == 'projects' ? underlineClass : ''}`}>Projects</span>
+					<a href="/projects">
+						<span className={`cursor-pointer ${activeTab == 'projects' ? underlineClass : ''}`}>Projects</span>
+					</a>
 					<a href="/contactus">
 						<span className={`cursor-pointer ${activeTab == 'contactus' ? underlineClass : ''}`}>Contact Us</span>
 					</a>

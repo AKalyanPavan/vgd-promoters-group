@@ -15,6 +15,12 @@ import mortgage from '../images/services/mortgage.svg';
 import survey from '../images/services/survey.svg';
 import soilTest from '../images/services/soil-test.svg';
 
+import butterflyGarden from '../images/projects-page/butterfly-garden.png';
+import mrCityKoduvai from '../images/projects-page/mr-city-koduvai.png';
+import anandhavalliAmmanAvenue from '../images/projects-page/anandhavalli-amman-avenue.png';
+import mrCityThonkutipalayam from '../images/projects-page/mr-city-thonkutipalayam.png';
+import vetrivelAvenue from '../images/projects-page/vetrivel-avenue.png';
+
 import landDevelopment from '../images/services-page/land-development.png';
 import property from '../images/services-page/property.png';
 import legalLiaisoning from '../images/services-page/legal-liaisoning.png';
@@ -171,6 +177,70 @@ export const servicesPage = [
 			"Project feasibility studies",
 			"Legal & structural advisory",
 			"Investment planning for individuals & NRIs",
+		],
+	},
+]
+
+// Projects Page
+export const projectsList = [
+	{
+		imageSource: butterflyGarden,
+		title: "Butterfly Garden – Veerapandi",
+		subtitle: "Nature-Inspired Living in the Heart of Tiruppur",
+		description: "Located in Veerapandi, Butterfly Garden offers a calm, eco-friendly environment ideal for families and nature lovers. A DTCP-approved layout with excellent road access, it blends serene surroundings with urban convenience.",
+		highlights: [
+			"DTCP-approved residential layout",
+			"Lush greenery & peaceful atmosphere",
+			"Ready-to-build plots with road and drainage",
+			"Easy access to schools and workplaces",
+		],
+	},
+	{
+		imageSource: mrCityKoduvai,
+		title: "M.R. City – Koduvai, Peruntholvu & Thonguttipalayam",
+		subtitle: "Flagship Layout with Future-Ready Infrastructure",
+		description: "Spread across multiple zones, M.R. City is one of our most sought-after layouts. With DTCP approval and strong resale potential, it’s ideal for investors, first-time buyers, and builders.",
+		highlights: [
+			"Multi-location project with 100% approvals",
+			"Great for long-term investment & home construction",
+			"Close to major highways and schools",
+			"Infrastructure-ready plots",
+		],
+	},
+	{
+		imageSource: anandhavalliAmmanAvenue,
+		title: "Anandhavalli Amman Avenue – Mudalipalayam (Kangeyam Road)",
+		subtitle: "Peaceful Plots with Urban Connectivity",
+		description: "Located off Kangeyam Road, this layout offers the perfect balance of peace and accessibility. Ideal for those who seek a home away from city noise but still want easy access to amenities.",
+		highlights: [
+			"Well-planned layout in a quiet neighborhood",
+			"Ideal for families and retirees",
+			"Surrounded by upcoming developments",
+			"High potential for value appreciation",
+		],
+	},
+	{
+		imageSource: mrCityThonkutipalayam,
+		title: "M.R. CITY - Thonkutipalayam, Tiruppur",
+		subtitle: "High-Growth Investment in Emerging Hubs",
+		description: "VIP City is designed for those who want premium land in rapidly developing regions. Whether you’re an investor or a future homeowner, these plots promise solid returns and a quality lifestyle.",
+		highlights: [
+			"Plots available in Sulur & Avinashi",
+			"Close to Coimbatore International Airport",
+			"High demand rental & resale location",
+			"Well-connected by road and public transport",
+		],
+	},
+	{
+		imageSource: vetrivelAvenue,
+		title: "Vetrivel Avenue – Rayarpalayam (Palladam)",
+		subtitle: "Premium Living with Excellent Appreciation Potential",
+		description: "Located in the fast-growing Palladam corridor, Vetrivel Avenue offers premium land options ideal for residential or mixed-use development. With strong demand and proximity to industrial hubs, it’s a smart move for investors.",
+		highlights: [
+			"Prime plots in a high-demand locality",
+			"Great for both living and renting out",
+			"Wide roads, drainage, and clear titles",
+			"Surrounded by major industrial players",
 		],
 	},
 ]

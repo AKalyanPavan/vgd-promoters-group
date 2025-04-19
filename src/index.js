@@ -2,8 +2,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+
 import Homepage from './components/Homepage.js';
 import Services from './components/Services.js';
+import Projects from './components/Projects.js';
 import ContactUs from './components/Contactus.js';
 import AboutUs from './components/Aboutus.js';
 import reportWebVitals from './reportWebVitals';
@@ -15,12 +17,9 @@ root.render(
       <Routes>
         <Route index path='/' element={<Homepage />} />
         <Route path='/services' element={<Services />} />
+        <Route path='/projects' element={<Projects />} />
         <Route path='/contactus' element={<ContactUs />} />
         <Route path='/aboutus' element={<AboutUs />} />
-        {/*<Route path='/privacy-policy' element={<PrivacyPolicy />} />
-        <Route path='/case-study' element={<CaseStudy />} />
-        <Route path='/faqs' element={<Faqs />} />
-        <Route path='/terms-of-service' element={<TermsofService />} />*/}
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
