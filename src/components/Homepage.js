@@ -31,11 +31,13 @@ export default function Homepage() {
 										</div>
 									))}
 								</div>
-								<div className="w-fit text-center bg-[#21739D] py-[10px] px-[20px] rounded-[5px] cursor-pointer mt-[20px]">
-									<span className="text-[#ffffff] font-medium">
-										Book an Appointment
-									</span>
-								</div>
+								<a href="/formsubmit">
+									<div className="w-fit text-center bg-[#21739D] py-[10px] px-[20px] rounded-[5px] cursor-pointer mt-[20px]">
+										<span className="text-[#ffffff] font-medium">
+											Book an Appointment
+										</span>
+									</div>
+								</a>
 							</div>
 							<img src={firstSection} className="max-[1100px]:hidden w-[40%]" />
 						</div>

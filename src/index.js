@@ -8,6 +8,7 @@ import Services from './components/Services.js';
 import Projects from './components/Projects.js';
 import ContactUs from './components/Contactus.js';
 import AboutUs from './components/Aboutus.js';
+import FormSubmit from './components/FormSubmit.js';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,6 +21,7 @@ root.render(
         <Route path='/projects' element={<Projects />} />
         <Route path='/contactus' element={<ContactUs />} />
         <Route path='/aboutus' element={<AboutUs />} />
+        <Route path='/formsubmit' element={<FormSubmit />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
