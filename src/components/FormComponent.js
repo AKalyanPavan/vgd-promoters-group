@@ -1,4 +1,4 @@
-export default function FormComponent() {
+export default function FormComponent({isContactUsPage}) {
 
 	let emailregex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 	let phoneregex = /^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$/;
@@ -96,7 +96,6 @@ export default function FormComponent() {
 	    }
 
 	    if (!isError) {
-
 	    	makeRecordinCRM(
 	    		fPropertyRequirement.value,
 	    		fname.value,
@@ -106,7 +105,7 @@ export default function FormComponent() {
 	    		fPlaceofIntrest.value
 	    	);
 
-	        // Making input values empty
+	    	// Making input values empty
 	        fPropertyRequirement.value = 'none'
 	        fname.value = "";
 	        femail.value = "";
@@ -119,12 +118,6 @@ export default function FormComponent() {
 	        onInputFocusOut("phoneNumber");
 	        onInputFocusOut("budget");
 	        onInputFocusOut("placeofInterest");
-
-	        // Opening thank-you modal
-	        openThankYouModal();
-
-	        // Closing thank-you modal
-	        setTimeout(closeThankYouModal, 5000);
 	    }   
 	}
 
@@ -132,7 +125,7 @@ export default function FormComponent() {
 
 		const zapikey = process.env.REACT_APP_ZAPIKEY;
 
-		let paramsObject = {
+		const paramsObject = {
 			full_name: name,
 			email: email,
 			mobile: phonenumber,
@@ -141,18 +134,21 @@ export default function FormComponent() {
 			property_requirement: propertyRequirement
 		}
 
-		// Convert to JSON string
-		const jsonString = JSON.stringify(paramsObject);
+		const myHeaders = new Headers();
+		myHeaders.append("Content-Type", "application/json");
 
-		// Encode the string
-		const encodedParams = encodeURIComponent(jsonString);
+		const requestOptions = {
+			method: "POST",
+			headers: myHeaders,
+			body: JSON.stringify(paramsObject),
+			redirect: "follow",
+		};
 
 		// Construct the full URL
-		const url = `https://www.zohoapis.in/crm/v7/functions/create_lead_api/actions/execute?auth_type=apikey&zapikey=${zapikey}&params=${encodedParams}`;
+		const url = `https://seobot.centilio.com/vgdcreatelead`;
 
-		fetch(url)
+		fetch(url, requestOptions)
 			.then((response) => {
-				debugger
 				if (response.ok) {
 					console.log("✅ Success");
 					return response.text();
@@ -162,11 +158,13 @@ export default function FormComponent() {
 				}
 			})
 			.then((result) => {
-				debugger
+
+		        // Opening thank-you modal
+		        openThankYouModal();
+
 				console.log("Result:", result);
 			})
 			.catch((error) => {
-				debugger
 				console.error("❌ Error occurred:", error.message);
 				alert(`Network error or unexpected issue occurred. Please try again. \n ${error.message}`);
 			});
@@ -178,6 +176,10 @@ export default function FormComponent() {
 	    if(!thankYouModal.classList.contains("hidden")){
 	        thankYouModal.classList.add("hidden");
 	        modalOverlay.classList.add("hidden");
+	    }
+
+	    if (!isContactUsPage) {
+	    	window.location = "/";
 	    }
 	}
 

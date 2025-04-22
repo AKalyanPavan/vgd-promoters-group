@@ -80,7 +80,7 @@ export default function ContactUs() {
 						</div>
 					</div>
 					<div className="bg-[#ffffff] lg:w-[50%] pt-[20px] px-[20px] lg:rounded-r-[10px] max-lg:rounded-b-[10px] border-solid border-[1.5px] border-[#21739D] shadow-[1px_1px_20px_30px_rgba(0,0,0,0.05)]">
-						<FormComponent />
+						<FormComponent isContactUsPage={true} />
 					</div>
 				</div>
 				<div className="text-center mb-[50px]">
