@@ -29,7 +29,7 @@ export default function Header({activeTab, customStyle}) {
 					</a>
 				</div>
 				<a href="tel:+91 8807553748">
-					<div className="bg-[#21739D] h-fit flex items-center py-[10px] px-[20px] rounded-[5px] cursor-pointer font-medium">
+					<div id="callUsNowButton" className="bg-[#21739D] h-fit flex items-center py-[10px] px-[20px] rounded-[5px] cursor-pointer font-medium">
 						<img src={phone} />
 						<span className="text-[#ffffff] ml-[10px]">
 							Call Us Now
