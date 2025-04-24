@@ -24,14 +24,23 @@ export default function Footer() {
 					</div>
 					<div className="flex gap-[100px] max-xl:my-[50px] max-xl:justify-center">
 						<div className="flex flex-col gap-[24px]">
-							<span>Home</span>
-							<span>About Us</span>
-							<span>Services</span>
+							<a href="/">
+								<span>Home</span>
+							</a>
+							<a href="/aboutus">
+								<span>About Us</span>
+							</a>
+							<a href="/services">
+								<span>Services</span>
+							</a>
 						</div>
 						<div className="flex flex-col gap-[24px]">
-							<span>Projects</span>
-							<span>Clients</span>
-							<span>Contact Us</span>
+							<a href="/projects">
+								<span>Projects</span>
+							</a>
+							<a href="/contactus">
+								<span>Contact Us</span>
+							</a>
 						</div>
 					</div>
 					<div className="flex flex-col gap-[24px]">
