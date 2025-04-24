@@ -199,8 +199,8 @@ export default function FormComponent({isContactUsPage}) {
 				<div className="mb-[10px]">
 					<div className="mb-[10px]">Choose Property Requirement*</div>
 					<select className="border-solid border-[1.5px] border-[#37405E] p-[5px] rounded-[5px]" name="fpropertyrequirement" id="fpropertyrequirement" onClick={() => onSelectClicked("errorPropertyRequirement")}>
-					    <option value="none" selected>None</option>
-					    <option value="buy">Buy</option>
+					    <option value="none">None</option>
+					    <option value="buy" selected>Buy</option>
 					    <option value="sell">Sell</option>
 					</select>
 					<div className="text-left mt-[2px] text-[12px] text-[#ff3f3f] invisible" id="errorPropertyRequirement">Please select a property requirement</div>
