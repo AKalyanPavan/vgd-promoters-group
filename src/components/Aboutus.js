@@ -25,11 +25,13 @@ export default function AboutUs() {
 								<div className="text-[18px]">
 									With over a decade of industry expertise and 100+ successful projects, VGD Developers has become a trusted name in land development, DTCP approvals, property consultation, and real estate investment solutions.
 								</div>
-								<div className="w-fit text-center bg-[#21739D] py-[10px] px-[20px] rounded-[5px] cursor-pointer mt-[20px]">
-									<span className="text-[#ffffff] font-medium">
-										Book an Appointment
-									</span>
-								</div>
+								<a href="/formsubmit">
+									<div className="w-fit text-center bg-[#21739D] py-[10px] px-[20px] rounded-[5px] cursor-pointer mt-[20px]">
+										<span className="text-[#ffffff] font-medium">
+											Book an Appointment
+										</span>
+									</div>
+								</a>
 							</div>
 							<img src={firstSection} className="max-lg:hidden w-[40%]" />
 						</div>

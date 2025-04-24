@@ -19,11 +19,13 @@ export default function Projects() {
 								<div className="my-[30px]">
 									At VGD Developers, every project is more than just land—it’s a well-planned, legally approved, and high-growth opportunity for homebuyers and investors alike. Our DTCP-approved layouts are strategically located, infrastructure-ready, and designed for long-term value.
 								</div>
-								<div className="w-fit text-center bg-[#21739D] py-[10px] px-[20px] rounded-[5px] cursor-pointer mt-[20px]">
-									<span className="text-[#ffffff] font-medium">
-										Book an Appointment
-									</span>
-								</div>
+								<a href="/formsubmit">
+									<div className="w-fit text-center bg-[#21739D] py-[10px] px-[20px] rounded-[5px] cursor-pointer mt-[20px]">
+										<span className="text-[#ffffff] font-medium">
+											Book an Appointment
+										</span>
+									</div>
+								</a>
 							</div>
 							<img src={firstSection} className="max-lg:hidden w-[40%]" />
 						</div>
@@ -61,7 +63,7 @@ export default function Projects() {
 					</div>
 					<a href="tel:+91 8807553748">
 						<div className="bg-[#21739D] w-fit mx-auto h-fit flex items-center py-[10px] px-[20px] rounded-[5px] cursor-pointer font-medium">
-							<span className="text-[#ffffff] ml-[10px]">
+							<span className="text-[#ffffff]">
 								Contact Us
 							</span>
 						</div>
