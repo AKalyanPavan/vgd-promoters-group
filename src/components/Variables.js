@@ -194,6 +194,7 @@ export const projectsList = [
 			"Ready-to-build plots with road and drainage",
 			"Easy access to schools and workplaces",
 		],
+		url: 'https://drive.google.com/file/d/1uVUkXoGIbFa5xCROXZFWmH-GhNt9bJdV/view?usp=share_link',
 	},
 	{
 		imageSource: mrCityKoduvai,
@@ -206,6 +207,7 @@ export const projectsList = [
 			"Close to major highways and schools",
 			"Infrastructure-ready plots",
 		],
+		url: 'https://drive.google.com/file/d/1sZkjQPUInFYZfW-tGKlVh8QZGzqE49xJ/view?usp=share_link',
 	},
 	{
 		imageSource: mrCityThonkutipalayam,
@@ -218,6 +220,7 @@ export const projectsList = [
 			"High demand rental & resale location",
 			"Well-connected by road and public transport",
 		],
+		url: 'https://drive.google.com/file/d/18mtY4txkZI4lnHcityZZAHoqsQCudRgV/view?usp=share_link',
 	},
 	{
 		imageSource: vetrivelAvenue,
@@ -230,6 +233,7 @@ export const projectsList = [
 			"Wide roads, drainage, and clear titles",
 			"Surrounded by major industrial players",
 		],
+		url: 'https://drive.google.com/file/d/1el6idIez51ca7tALYU3ZHodyDGbH6-6u/view?usp=share_link',
 	},
 	{
 		imageSource: anandhavalliAmmanAvenue,
@@ -242,6 +246,7 @@ export const projectsList = [
 			"Surrounded by upcoming developments",
 			"High potential for value appreciation",
 		],
+		url: 'https://drive.google.com/file/d/1PfhkYzy27KJ-aGb62Iu43e1AnHXUqi81/view?usp=share_link',
 	},
 ]
 

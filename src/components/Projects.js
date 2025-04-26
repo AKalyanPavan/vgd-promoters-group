@@ -52,7 +52,7 @@ export default function Projects() {
 									</ul>
 								</div>
 								<div className="lg:w-[40%]">
-									<a href="/">
+									<a target="_blank" href={project.url}>
 										<img src={project.imageSource} />
 									</a>
 								</div>
