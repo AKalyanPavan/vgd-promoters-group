@@ -17,7 +17,7 @@ export default function Projects() {
 								<div className="text-[40px]">Shaping the Future</div>
 								<div className="text-[30px] text-[#73A729]">One Layout at a Time</div>
 								<div className="my-[30px]">
-									At VGD Developers, every project is more than just land—it’s a well-planned, legally approved, and high-growth opportunity for homebuyers and investors alike. Our DTCP-approved layouts are strategically located, infrastructure-ready, and designed for long-term value.
+									At VGD Promoters Group, every project is more than just land—it’s a well-planned, legally approved, and high-growth opportunity for homebuyers and investors alike. Our DTCP-approved layouts are strategically located, infrastructure-ready, and designed for long-term value.
 								</div>
 								<a href="/formsubmit">
 									<div className="w-fit text-center bg-[#21739D] py-[10px] px-[20px] rounded-[5px] cursor-pointer mt-[20px]">
@@ -39,7 +39,7 @@ export default function Projects() {
 					</div>
 					<div className="flex flex-col gap-[100px] mt-[50px] mb-[100px]">
 						{projectsList.map((project, index) => (
-							<div className="flex max-lg:flex-col items-center justify-center gap-[50px] mx-auto border-solid border-[#d8d8d8] max-lg:border-[2px] max-lg:p-[20px] rounded-[20px]">
+							<div className="flex max-lg:flex-col items-start justify-center gap-[50px] mx-auto border-solid border-[#d8d8d8] max-lg:border-[2px] max-lg:p-[20px] rounded-[20px]">
 								<div className="xl:w-[40%]">
 									<div className="text-[24px] text-[#73A729] max-lg:text-center">{project.title}</div>
 									<div className="text-[18px] text-[#21739D] my-[10px]">{project.subtitle}</div>
@@ -51,7 +51,11 @@ export default function Projects() {
 										))}
 									</ul>
 								</div>
-								<img src={project.imageSource} className="lg:w-[40%] rounded-[15px]" />
+								<div className="lg:w-[40%]">
+									<a href="/">
+										<img src={project.imageSource} />
+									</a>
+								</div>
 							</div>
 						))}
 					</div>

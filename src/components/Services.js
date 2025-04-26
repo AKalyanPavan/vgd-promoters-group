@@ -17,7 +17,7 @@ export default function Services() {
 								<div className="text-[40px]">Complete Real Estate Solutions</div>
 								<div className="text-[30px] text-[#73A729]">Backed by Expertise</div>
 								<div className="my-[30px]">
-									At VGD Developers, we offer a 360° suite of services to simplify and secure your property journey. From land development and approvals to construction and investment guidance—we ensure every step is transparent, compliant, and profitable.
+									At VGD Promoters Group, we offer a 360° suite of services to simplify and secure your property journey. From land development and approvals to construction and investment guidance—we ensure every step is transparent, compliant, and profitable.
 								</div>
 								<a href="/formsubmit">
 									<div className="w-fit text-center bg-[#21739D] py-[10px] px-[20px] rounded-[5px] cursor-pointer mt-[20px]">

@@ -20,10 +20,10 @@ export default function AboutUs() {
 								<div className="text-[#21739D] text-[40px]">VGD Promoters Group</div>
 								<div className="text-[30px] text-[#73A729]">Where Every Plot Comes with a Promise</div>
 								<div className="my-[20px] text-[18px]">
-									At VGD Developers, real estate is not just a business—it's a promise of transparency, trust, and long-term growth. Founded by Er. R. Vijay, a civil engineer turned visionary entrepreneur, our journey began in 2013 with a mission to simplify and secure property ownership in Tamil Nadu.
+									At VGD Promoters Group, real estate is not just a business—it's a promise of transparency, trust, and long-term growth. Founded by Er. R. Vijay, a civil engineer turned visionary entrepreneur, our journey began in 2013 with a mission to simplify and secure property ownership in Tamil Nadu.
 								</div>
 								<div className="text-[18px]">
-									With over a decade of industry expertise and 100+ successful projects, VGD Developers has become a trusted name in land development, DTCP approvals, property consultation, and real estate investment solutions.
+									With over a decade of industry expertise and 100+ successful projects, VGD Promoters Group has become a trusted name in land development, DTCP approvals, property consultation, and real estate investment solutions.
 								</div>
 								<a href="/formsubmit">
 									<div className="w-fit text-center bg-[#21739D] py-[10px] px-[20px] rounded-[5px] cursor-pointer mt-[20px]">
@@ -70,7 +70,7 @@ export default function AboutUs() {
 								<div className="pl-[20px] mt-[5px]">
 									<ul className="list-disc flex flex-col gap-[10px]">
 										<li>
-											To offer single-window DTCP, RERA & Panchayat approvals for real estate developers and individuals.
+											To offer single-window DTCP, RERA & Panchayat approvals for real estate Promoters Group and individuals.
 										</li>
 										<li>
 											To promote strategically located residential and commercial projects with excellent resale and rental potential.
@@ -129,11 +129,11 @@ export default function AboutUs() {
 							<div className="lg:w-[70%]">
 								<div className="">
 									<div className="text-[28px] highlightGreen w-fit">Er. R. Vijay</div>
-									<div className="text-[18px] highlightGreen w-fit my-[10px] font-medium">Founder & CEO, VGD Developers</div>
+									<div className="text-[18px] highlightGreen w-fit my-[10px] font-medium">Founder & CEO, VGD Promoters Group</div>
 									<div className="text-[18px] text-[#21739D]">Civil Engineer | Real Estate Strategist | DTCP Liaison Expert</div>
 								</div>
 								<div className="mt-[10px] mb-[50px]">
-									With a strong foundation in civil engineering and a passion for ethical development, Er. R. Vijay has shaped VGD Developers into a symbol of trust and growth. His network spans government institutions, business communities (BNI, Rotary), and real estate forums—making VGD a name clients rely on.
+									With a strong foundation in civil engineering and a passion for ethical development, Er. R. Vijay has shaped VGD Promoters Group into a symbol of trust and growth. His network spans government institutions, business communities (BNI, Rotary), and real estate forums—making VGD a name clients rely on.
 								</div>
 								<div className="text-[18px] text-[#21739D]">
 									Let’s Build Your Future, Together
@@ -141,7 +141,7 @@ export default function AboutUs() {
 								<div>
 									Whether you’re searching for a secure plot, need help with approvals, or planning your next big investment
 									<br />
-									—VGD Developers is your dependable partner.
+									—VGD Promoters Group is your dependable partner.
 								</div>
 							</div>
 							<div className="md:w-[30%]">

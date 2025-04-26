@@ -25,7 +25,7 @@ export default function ContactUs() {
 							<div className="xl:max-w-[650px]">
 								<div className="text-[40px] text-[#21739D]">Let’s Build Your Future—Together</div>
 								<div className="my-[30px]">
-									At VGD Developers, we don’t just sell plots—we build long-term relationships based on trust, transparency, and results.
+									At VGD Promoters Group, we don’t just sell plots—we build long-term relationships based on trust, transparency, and results.
 								</div>
 								<div className="w-fit mt-[30px] flex flex-col gap-[20px] max-w-[800px] sm:text-[18px]">
 									{contactUsQuestions.map((item, index) => (

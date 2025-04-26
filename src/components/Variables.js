@@ -15,11 +15,11 @@ import mortgage from '../images/services/mortgage.svg';
 import survey from '../images/services/survey.svg';
 import soilTest from '../images/services/soil-test.svg';
 
-import butterflyGarden from '../images/projects-page/butterfly-garden.png';
-import mrCityKoduvai from '../images/projects-page/mr-city-koduvai.png';
-import anandhavalliAmmanAvenue from '../images/projects-page/anandhavalli-amman-avenue.png';
-import mrCityThonkutipalayam from '../images/projects-page/mr-city-thonkutipalayam.png';
-import vetrivelAvenue from '../images/projects-page/vetrivel-avenue.png';
+import butterflyGarden from '../images/projects-page/butterfly-garden.avif';
+import mrCityKoduvai from '../images/projects-page/mr-city-koduvai.avif';
+import anandhavalliAmmanAvenue from '../images/projects-page/anandhavalli-amman-avenue.avif';
+import mrCityThonkutipalayam from '../images/projects-page/mr-city-thonkutipalayam.avif';
+import vetrivelAvenue from '../images/projects-page/vetrivel-avenue.avif';
 
 import landDevelopment from '../images/services-page/land-development.png';
 import property from '../images/services-page/property.png';
@@ -208,18 +208,6 @@ export const projectsList = [
 		],
 	},
 	{
-		imageSource: anandhavalliAmmanAvenue,
-		title: "Anandhavalli Amman Avenue – Mudalipalayam (Kangeyam Road)",
-		subtitle: "Peaceful Plots with Urban Connectivity",
-		description: "Located off Kangeyam Road, this layout offers the perfect balance of peace and accessibility. Ideal for those who seek a home away from city noise but still want easy access to amenities.",
-		highlights: [
-			"Well-planned layout in a quiet neighborhood",
-			"Ideal for families and retirees",
-			"Surrounded by upcoming developments",
-			"High potential for value appreciation",
-		],
-	},
-	{
 		imageSource: mrCityThonkutipalayam,
 		title: "M.R. CITY - Thonkutipalayam, Tiruppur",
 		subtitle: "High-Growth Investment in Emerging Hubs",
@@ -241,6 +229,18 @@ export const projectsList = [
 			"Great for both living and renting out",
 			"Wide roads, drainage, and clear titles",
 			"Surrounded by major industrial players",
+		],
+	},
+	{
+		imageSource: anandhavalliAmmanAvenue,
+		title: "Anandhavalli Amman Avenue – Mudalipalayam (Kangeyam Road)",
+		subtitle: "Peaceful Plots with Urban Connectivity",
+		description: "Located off Kangeyam Road, this layout offers the perfect balance of peace and accessibility. Ideal for those who seek a home away from city noise but still want easy access to amenities.",
+		highlights: [
+			"Well-planned layout in a quiet neighborhood",
+			"Ideal for families and retirees",
+			"Surrounded by upcoming developments",
+			"High potential for value appreciation",
 		],
 	},
 ]
