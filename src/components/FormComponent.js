@@ -96,7 +96,7 @@ export default function FormComponent({isContactUsPage}) {
 	    }
 
 	    if (!isError) {
-	    	makeRecordinCRM(
+	    	sendEmail(
 	    		fPropertyRequirement.value,
 	    		fname.value,
 	    		femail.value,
@@ -121,7 +121,7 @@ export default function FormComponent({isContactUsPage}) {
 	    }   
 	}
 
-	function makeRecordinCRM(propertyRequirement, name, email, phonenumber, budget, placeofIntrest) {
+	function sendEmail(propertyRequirement, name, email, phonenumber, budget, placeofIntrest) {
 
 		const zapikey = process.env.REACT_APP_ZAPIKEY;
 
@@ -145,7 +145,7 @@ export default function FormComponent({isContactUsPage}) {
 		};
 
 		// Construct the full URL
-		const url = `https://seobot.centilio.com/vgdcreatelead`;
+		const url = `https://seobot.centilio.com/vgdsendemail`;
 
 		fetch(url, requestOptions)
 			.then((response) => {
